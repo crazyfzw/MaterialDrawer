@@ -9,7 +9,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 ### Make step：
 
 1.add activity_main.xml
-...xml
+```xml
   <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -30,10 +30,11 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
         android:layout_gravity="left" />
 
 </android.support.v4.widget.DrawerLayout>
-...xml
+```
 
 2.custom your drawer header  navigation_header.xml
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -69,9 +70,11 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
         android:text="野蛮体魄"/>
 
 </LinearLayout>
+```
 
 3. custom your drawer menu item  menu_navigation.xml
 
+````xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu android:checkableBehavior="single"
     xmlns:android="http://schemas.android.com/apk/res/android"><group android:id="@+id/nav_group1" android:checkableBehavior="single">
@@ -131,10 +134,10 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
             android:checkable="true" />
     </group>
 </menu>
-
+````
 4. use java init in your activity  
 
-
+```java
      public void initViews() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -191,6 +194,6 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
             }
         });
     }
-
+```
 
 done.
