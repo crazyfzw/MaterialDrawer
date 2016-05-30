@@ -8,7 +8,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 
 ### Make step：
 
-1.add activity_main.xml
+####1.add activity_main.xml
 ```xml
   <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -32,7 +32,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 </android.support.v4.widget.DrawerLayout>
 ```
 
-2.custom your drawer header  navigation_header.xml
+####2.custom your drawer header  navigation_header.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -72,7 +72,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 </LinearLayout>
 ```
 
-3. custom your drawer menu item  menu_navigation.xml
+####3.custom your drawer menu item  menu_navigation.xml
 
 ````xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -135,7 +135,8 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
     </group>
 </menu>
 ````
-4. use java init in your activity  
+
+####4.use java init in your activity  
 
 ```java
      public void initViews() {
