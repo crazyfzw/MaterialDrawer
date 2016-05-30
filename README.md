@@ -10,7 +10,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 
 1.add activity_main.xml
 
-<android.support.v4.widget.DrawerLayout
+  <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/id_drawerlayout"
@@ -41,7 +41,6 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
     android:background="@drawable/nav_header"
     android:gravity="center"
     android:orientation="vertical">
-
     <com.crazyfzw.materialdrawer.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/current_userAvater"
@@ -75,9 +74,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 
 <?xml version="1.0" encoding="utf-8"?>
 <menu android:checkableBehavior="single"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <group android:id="@+id/nav_group1" android:checkableBehavior="single">
+    xmlns:android="http://schemas.android.com/apk/res/android"><group android:id="@+id/nav_group1" android:checkableBehavior="single">
         <item
             android:icon="@drawable/ic_home_black_24dp"
             android:id="@+id/nav_home"
@@ -137,8 +134,8 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 
 4. use java init in your activity  
 
-public void initViews() {
 
+     public void initViews() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
