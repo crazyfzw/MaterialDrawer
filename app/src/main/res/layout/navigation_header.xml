@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/nav_header"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.crazyfzw.materialdrawer.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/current_userAvater"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/current_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/text__white"
+        android:textSize="16sp"
+        android:text="crazyfzw"/>
+
+
+    <TextView
+        android:id="@+id/current_userSignature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text__white"
+        android:textSize="18sp"
+        android:text="野蛮体魄"/>
+
+</LinearLayout>

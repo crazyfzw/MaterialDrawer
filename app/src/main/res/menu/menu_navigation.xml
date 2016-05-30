@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:checkableBehavior="single"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_group1" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:checkable="true" />
+        <item
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:id="@+id/nav_offline_manager"
+            android:title="@string/nav_offline_manager"
+            android:checkable="true" />
+    </group>
+
+    <group android:id="@+id/nav_group2" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_star_black_24dp"
+            android:id="@+id/nav_favorites"
+            android:title="@string/nav_favorites"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_history_black_24dp"
+            android:id="@+id/nav_histories"
+            android:title="@string/nav_histories"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_people_black_24dp"
+            android:id="@+id/nav_following"
+            android:title="@string/nav_following"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:id="@+id/nav_pay"
+            android:title="@string/nav_growth_process"
+            android:checkable="true" />
+
+    </group>
+
+    <group android:id="@+id/nav_group3" android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:id="@+id/nav_theme"
+            android:orderInCategory="1"
+            android:title="@string/title_theme_store"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:id="@+id/nav_settings"
+            android:orderInCategory="3"
+            android:title="@string/nav_settings"
+            android:checkable="true" />
+    </group>
+
+</menu>
