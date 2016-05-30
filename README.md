@@ -9,7 +9,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 ### Make step：
 
 1.add activity_main.xml
-
+<pre><code>
   <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -30,7 +30,7 @@ DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
         android:layout_gravity="left" />
 
 </android.support.v4.widget.DrawerLayout>
-
+</code></pre>
 
 2.custom your drawer header  navigation_header.xml
 
