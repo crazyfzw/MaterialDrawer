@@ -1,6 +1,10 @@
 # MaterialDrawer
 DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单
 
+
+实现细节可以看我博客：
+[DrawerLayout+NavigationView打造Google原生Material Design风格侧滑菜单](http://blog.csdn.net/fzw_faith/article/details/51536911)
+
 ###运行效果图
 
 ![images](https://github.com/crazyfzw/ProjectImages/blob/master/MaterialDrawer/materialdesign.gif)
