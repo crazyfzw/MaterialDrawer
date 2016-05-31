@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- 第一个位置 主界面内容-->
+    <!-- 第一个位置 主界面内容 main content-->
     <include layout="@layout/content_main" />
 
 

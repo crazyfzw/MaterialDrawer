@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#d9507e</color>
+    <color name="colorPrimary">#FF4081</color>
     <color name="colorPrimaryDark">#FF4081</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#211e1e</color>
+
+    <color name="tab_text_color">#ccc3c3</color>
+    <color name="second_toolbar">#3F51B5</color>
+    <color name="light_news_item">#FFF0F0F0</color>
 
     <color name="main_blue_light">#3F56B5</color>
     <color name="main_blue_dark">#30459E</color>

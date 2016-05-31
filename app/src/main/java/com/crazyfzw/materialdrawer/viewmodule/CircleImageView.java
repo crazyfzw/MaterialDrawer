@@ -1,4 +1,4 @@
-package com.crazyfzw.materialdrawer;
+package com.crazyfzw.materialdrawer.viewmodule;
 
 /*
  * Copyright 2014 - 2015 Henning Dodenhof
@@ -37,8 +37,10 @@ import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+import com.crazyfzw.materialdrawer.R;
 
-public class CircleImageView extends ImageView {
+
+public class CircleImageView extends ImageView{
 
     private static final ImageView.ScaleType SCALE_TYPE = ImageView.ScaleType.CENTER_CROP;
 

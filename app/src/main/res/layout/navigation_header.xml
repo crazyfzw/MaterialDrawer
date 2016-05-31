@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.crazyfzw.materialdrawer.CircleImageView
+    <com.crazyfzw.materialdrawer.viewmodule.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/current_userAvater"
         android:layout_width="70dp"
